@@ -12,6 +12,8 @@ DB_DATABASE=libraryManagement
 DB_USERNAME=root
 DB_PASSWORD=
 
+<br><br>
+
 ## database/migrations/0001_01_01_000000_create_authors_and_books_table.php
 Edited the functions to suit our database
 
@@ -32,6 +34,8 @@ int pages
 
 run "php artisan migrate" when you're done (MAKE SURE MYSQL IS OPEN‼)
 and you can refresh to see that your libraryManagement database has been set up
+
+<br><br>
 
 ## app/Models/Author.php
 app/Models/Book.php
