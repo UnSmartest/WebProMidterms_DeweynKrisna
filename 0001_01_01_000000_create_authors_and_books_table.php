@@ -25,6 +25,13 @@ return new class extends Migration
             $table->string('genre', 50); //string[50] genre
             $table->integer('pages'); //int pages
         });
+
+        Schema::create('users', function(Blueprint $table){
+            $table->id(); //PRIMARY KEY int id
+            $table->string('name', 50); //string[50] name
+            $table->string('email', 50); //string[50] email
+            $table->string('password', 50); //string[50] password
+        });
     }
 
     /**
@@ -34,5 +41,6 @@ return new class extends Migration
     {
         Schema::dropIfExists('books');
         Schema::dropIfExists('authors');
+        Schema::dropIfExists('users');
     }
 };
