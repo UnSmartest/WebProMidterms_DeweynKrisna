@@ -1,4 +1,4 @@
-# Krisna's changes on 20:28, 22 Oct 2025
+<img width="2664" height="1586" alt="image" src="https://github.com/user-attachments/assets/e0878471-7cfd-4a1d-b35a-78a0c3fe3366" /># Krisna's changes on 20:28, 22 Oct 2025
 
 ## .env
 Make sure your XAMPP is open. Make sure Apache and MySQL is on then click 'Admin' of MySQL.
@@ -92,3 +92,40 @@ Changed 'author_id' into 'authorID'.
 php artisan migrate:fresh --seed
 ```
 Remember to make sure your MySQL and Apache is turned on (via XAMPP Control Panel).
+
+# Changes on Dewdew's Laptop
+
+**Created a session table**
+Imported Krisna's database code.
+Run the following in the VSCode terminal :
+```
+php artisan session:table
+php artisan migrate
+```
+
+<br>
+
+**TableControllers to bridge between backend and frontend I think**
+Edited app/Http/Controller/BookController.php so that our edit/add/delete functions work
+Edited app/Http/Controller/AuthorController.php
+Edited routes/web.php so that we can redirect pages properly
+Edited resources/views/author-create.blade.php to create a create-page
+Edited resources/views/author-edit.blade.php to create an edit page
+Edited resources/views/author.blade.php to create the default author page
+Edited app/Models/Author.php (added public $timestamps = false;) to allow edit/delete/add
+Edited app/Models/Book.php (added public $timestamps = false;)
+Edited resources/view/books.blade.php
+Edited resources/view/book-create.blade.php
+Edited resources/view/book-edit.blade.php
+Update app/Http/Controller/BookController.php again to implement 4 features : randomize, filter, sort, and search.
+Update resources/view/books.blade.php
+
+**8 Features**
+Create
+Edit
+Delete
+View
+Randomize
+Filter
+Sort
+Search
