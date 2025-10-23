@@ -17,7 +17,7 @@ class Book extends Model
      * @var list<string>
      */
     protected $fillable = [
-        'author_id',
+        'authorID',
         'name',
         'releaseDate',
         'genre',
@@ -39,3 +39,4 @@ class Book extends Model
         return $this->belongsTo(Author::class);
     }
 }
+
