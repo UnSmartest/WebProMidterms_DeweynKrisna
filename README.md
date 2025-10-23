@@ -35,7 +35,11 @@ Edited the functions to suit our database. There should only be one php file in 
 | str[50] | genre | - |
 | int | pages | - |
 
-On the VSCode terminal, run "php artisan migrate" when you're done (MAKE SURE MYSQL IS OPEN‼). And you can refresh to see that your libraryManagement database has been set up.
+On the VSCode terminal, run 
+```
+php artisan migrate
+```
+when you're done (MAKE SURE MYSQL IS OPEN‼). And you can refresh to see that your libraryManagement database has been set up.
 
 <br>
 
@@ -84,5 +88,7 @@ Since our website probably won't be made, at the very least we can include some 
 Changed 'author_id' into 'authorID'.
 
 ## How to Connect DatabaseSeeder into mySQL
+```
 php artisan migrate:fresh --seed
+```
 Remember to make sure your MySQL and Apache is turned on (via XAMPP Control Panel).
