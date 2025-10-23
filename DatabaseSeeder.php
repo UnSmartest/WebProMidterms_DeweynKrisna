@@ -69,7 +69,7 @@ class DatabaseSeeder extends Seeder
             [
                 'authorID' => 2,
                 'name' => '99 Ways to Extinguish a Fire in Your Home',
-                'releaseDate' => '26-02-2005',
+                'releaseDate' => '2005-07-19',
                 'genre' => 'Self-Improvement',
                 'pages' => 121
             ]
