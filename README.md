@@ -1,4 +1,4 @@
-<img width="2664" height="1586" alt="image" src="https://github.com/user-attachments/assets/e0878471-7cfd-4a1d-b35a-78a0c3fe3366" /># Krisna's changes on 20:28, 22 Oct 2025
+# Krisna's changes on 20:28, 22 Oct 2025
 
 ## .env
 Make sure your XAMPP is open. Make sure Apache and MySQL is on then click 'Admin' of MySQL.
