@@ -106,26 +106,26 @@ php artisan migrate
 <br>
 
 **TableControllers to bridge between backend and frontend I think**
-Edited app/Http/Controller/BookController.php so that our edit/add/delete functions work
-Edited app/Http/Controller/AuthorController.php
-Edited routes/web.php so that we can redirect pages properly
-Edited resources/views/author-create.blade.php to create a create-page
-Edited resources/views/author-edit.blade.php to create an edit page
-Edited resources/views/author.blade.php to create the default author page
-Edited app/Models/Author.php (added public $timestamps = false;) to allow edit/delete/add
-Edited app/Models/Book.php (added public $timestamps = false;)
-Edited resources/view/books.blade.php
-Edited resources/view/book-create.blade.php
-Edited resources/view/book-edit.blade.php
-Update app/Http/Controller/BookController.php again to implement 4 features : randomize, filter, sort, and search.
-Update resources/view/books.blade.php
+Edited app/Http/Controller/BookController.php so that our edit/add/delete functions work<br>
+Edited app/Http/Controller/AuthorController.php<br>
+Edited routes/web.php so that we can redirect pages properly<br>
+Edited resources/views/author-create.blade.php to create a create-page<br>
+Edited resources/views/author-edit.blade.php to create an edit page<br>
+Edited resources/views/author.blade.php to create the default author page<br>
+Edited app/Models/Author.php (added public $timestamps = false;) to allow edit/delete/add<br>
+Edited app/Models/Book.php (added public $timestamps = false;)<br>
+Edited resources/view/books.blade.php<br>
+Edited resources/view/book-create.blade.php<br>
+Edited resources/view/book-edit.blade.php<br>
+Update app/Http/Controller/BookController.php again to implement 4 features : randomize, filter, sort, and search.<br>
+Update resources/view/books.blade.php<br>
 
 **8 Features**
-Create
-Edit
-Delete
-View
-Randomize
-Filter
-Sort
-Search
+Create<br>
+Edit<br>
+Delete<br>
+View<br>
+Randomize<br>
+Filter<br>
+Sort<br>
+Search<br>
